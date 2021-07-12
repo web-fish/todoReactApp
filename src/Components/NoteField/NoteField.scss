@@ -1,0 +1,51 @@
+.notefield {
+  &__wrapper {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    @include _760 {
+      padding: 15px;
+    }
+    @include _560 {
+      padding: 10px;
+    }
+    @include _480 {
+      padding: 10px;
+    }
+  }
+
+  &__input {
+    @include mediafonts(18, 14);
+    width: 530px;
+  }
+  &__input::placeholder {
+    @include mediafonts(18, 14);
+    color: #d1d1d1;
+  }
+
+  &__add {
+    background-color: #fff;
+  }
+
+  &__add svg {
+    @include _760 {
+      width: 25px;
+      height: 25px;
+    }
+    @include _560 {
+      width: 22px;
+      height: 22px;
+    }
+    @include _480 {
+      width: 19px;
+      height: 19px;
+    }
+  }
+
+  &__add:hover svg {
+    path {
+      fill: #276ae6;
+    }
+  }
+}

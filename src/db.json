@@ -1,0 +1,24 @@
+{
+  "todolist": [
+    {
+      "id": "1",
+      "text": "Изучить HTML",
+      "complete": true
+    },
+    {
+      "id": "2",
+      "text": "Изучить CSS",
+      "complete": true
+    },
+    {
+      "id": "3",
+      "text": "Изучить JavaScript",
+      "complete": true
+    },
+    {
+      "id": "4",
+      "text": "Изучить ReactJS",
+      "complete": false
+    }
+  ]
+}

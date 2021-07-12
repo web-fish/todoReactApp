@@ -1,0 +1,42 @@
+.notes {
+  &__wrapper {
+    margin: 150px auto;
+    width: 600px;
+    background-color: $white_color;
+    box-shadow: 4px 4px 16px 1px rgba(174, 178, 182, 0.32);
+    border-radius: 5px;
+    overflow: hidden;
+    @include _767 {
+      margin: 100px auto;
+      width: 600px;
+    }
+    @include _600 {
+      margin: 120px auto;
+      width: 490px;
+    }
+    @include _480 {
+      margin: 90px auto;
+      width: 340px;
+    }
+
+    @include _360 {
+      margin: 90px auto;
+      width: 320px;
+    }
+    @include _320 {
+      margin: 90px auto;
+      width: 290px;
+    }
+  }
+  &__title {
+    background-color: $secondary_color;
+    color: $white_color;
+    text-align: center;
+    @include mediafonts(24, 14);
+    font-weight: 800;
+    padding: 10px 0;
+    @include _320 {
+      font-weight: 400;
+    }
+  }
+}
